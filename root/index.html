@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="./css/import.css">
+<meta name="keywords" content="■">
+<meta name="description" content="■">
+<title>作品集</title>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+<header id="header">
+	<h1 itemprop="name">作品集</h1>
+	<nav>
+		<ul>
+			<li><a href="#">コンテンツ1</a></li>
+			<li><a href="#">コンテンツ2</a></li>
+		</ul>
+	</nav>
+</header>
+
+<ul itemprop="breadcrumb">
+	<li><a itemprop="url" href="#">コンテンツ1</a></li>
+	<li><a itemprop="url" href="#">コンテンツ2</a></li>
+</ul>
+
+<main role="main">
+
+	<article itemscope="itemscope" itemtype="http://schema.org/Article">
+		<header>
+			<h2 itemprop="name">テストテスト</h2>
+		</header>
+		<figure>
+			<img itemprop="image" src="./images/sample.jpg">
+			<figcaption>テスト写真です。</figcaption>
+		</figure>
+		<div itemprop="articleBody">
+		テキストテキストテキストテキスト
+		</div>
+		<footer>
+			<p itemprop="author">著者名</p>
+			<ul itemprop="keywords">
+				<li>タグ1</li>
+				<li>タグ2</li>
+			</ul>
+			<time itemprop="datePublished" datetime="2012-12-05T12:51:37+09:00">2012年12月5日 12時51分37秒</time>
+		</footer>
+	</article>
+
+	<article itemscope="itemscope" itemtype="http://schema.org/Article">
+		<header>
+			<h2 itemprop="name">テストテスト</h2>
+		</header>
+		<figure>
+			<img itemprop="image" src="./images/sample.jpg">
+			<figcaption>テスト写真です。</figcaption>
+		</figure>
+		<div itemprop="articleBody">
+		テキストテキストテキストテキスト
+		</div>
+		<footer>
+			<p itemprop="author">著者名</p>
+			<ul itemprop="keywords">
+				<li>タグ1</li>
+				<li>タグ2</li>
+			</ul>
+			<time itemprop="datePublished" datetime="2012-12-05T12:51:37+09:00">2012年12月5日 12時51分37秒</time>
+		</footer>
+	</article>
+
+</main>
+
+<footer id="footer">
+	<p><small>Copyright &copy; ■■■■ All Rights Reserved.</small></p>
+</footer>
+
+<script src="./js/bundle.js"></script>
+</body>
+</html>

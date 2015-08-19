@@ -1,0 +1,30 @@
+{
+  "name": "default-html-template",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masanao-aoki/default-html-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masanao-aoki/default-html-template/issues"
+  },
+  "homepage": "https://github.com/masanao-aoki/default-html-template/",
+  "devDependencies": {
+    "gulp": "",
+    "gulp-watch": "",
+    "gulp-plumber": "",
+    "gulp-ruby-sass": "",
+    "gulp-pleeease": "",
+    "webpack-stream": "",
+    "babel-loader": "",
+    "jquery": "",
+    "is_js":""
+  }
+}
